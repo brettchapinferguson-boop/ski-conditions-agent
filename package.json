@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vercel dev",
-    "build": "tsc",
+    "build": "echo 'No build needed for Vercel serverless'",
     "deploy": "vercel --prod",
     "test": "node --test"
   },
